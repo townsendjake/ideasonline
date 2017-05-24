@@ -1,3 +1,19 @@
+<% if current_user %>
+<footer class="footer-distributed">
+    <div class="footer-left col-md-6">
+    <p class="footer-company-name">Company Name &copy; 2015</p>
+    </div>
+    
+    <div class="footer-icons second col-md-6" style="text-align:right">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a>
+    </div>
+    
+    
+</footer>
+<% else %>
 <footer class="footer-distributed">
     <div class="footer-left">
         <h3>Company<span>logo</span></h3>
@@ -27,5 +43,5 @@
                 <button>Send</button>
             </form>
     </div>
-    
 </footer>
+<% end %>
