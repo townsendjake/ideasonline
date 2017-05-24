@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 20170524132953) do
     t.string   "unconfirmed_email"
     t.datetime "created_at",                          null: false
     t.datetime "updated_at",                          null: false
-    t.boolean  "admin",             default :false
+    t.boolean  "admin",             default: false
     t.string   "firstname"
     t.string   "lastname"
   end
